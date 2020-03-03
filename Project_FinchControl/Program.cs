@@ -38,7 +38,7 @@ namespace Project_FinchControl
         /// </summary>
         static void SetTheme()
         {
-            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.BackgroundColor = ConsoleColor.Black;
         }
 
