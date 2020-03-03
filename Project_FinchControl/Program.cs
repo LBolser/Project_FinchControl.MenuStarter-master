@@ -28,7 +28,6 @@ namespace Project_FinchControl
         {
             SetTheme();
 
-            // Comment Test
             DisplayWelcomeScreen();
             DisplayMenuScreen();
             DisplayClosingScreen();
