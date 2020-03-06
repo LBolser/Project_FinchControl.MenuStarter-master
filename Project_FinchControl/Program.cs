@@ -194,6 +194,7 @@ namespace Project_FinchControl
                 finchRobot.setLED(lightSoundLevel, lightSoundLevel, lightSoundLevel);
                 finchRobot.noteOn(lightSoundLevel * 100);
             }
+            finchRobot.setLED(0, 0, 0);
 
             DisplayMenuPrompt("Talent Show Menu");
         }
@@ -329,6 +330,7 @@ namespace Project_FinchControl
             finchRobot.wait(200);
             finchRobot.setMotors(0, 0);
 
+            finchRobot.setLED(0, 0, 0);
             DisplayContinuePrompt();
         }
 
