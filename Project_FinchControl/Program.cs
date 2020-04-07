@@ -999,7 +999,10 @@ namespace Project_FinchControl
                 }
 
                 Console.WriteLine($"\t{commandFeedback}");
+               
             }
+            finchRobot.setMotors(0, 0);
+            finchRobot.setLED(0, 0, 0);
             DisplayContinuePrompt();
         }
 
